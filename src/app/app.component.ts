@@ -11,6 +11,16 @@ export class AppComponent {
 
   products$ = this.http.get('/api/products');
 
+  email: string;
+  password: string;
+
   constructor(private http: HttpClient) {
+  }
+
+  login() {
+    this.http.post('/api/login', {
+      email: this.email,
+      password: this.password
+    }).subscribe(result => console.log(result));
   }
 }

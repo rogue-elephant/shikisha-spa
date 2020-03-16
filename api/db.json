@@ -1,4 +1,10 @@
 {
+  "users": [
+    {
+      "email": "tommy",
+      "password": "tomiscool"
+    }
+  ],
   "products": [
     {
       "id": 1,
