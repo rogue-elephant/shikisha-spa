@@ -1,4 +1,14 @@
 # ShikishaSpa
+## Get Running
+The project uses json server as a mock api, to debug run:
+
+`npm run api`
+
+and then in a seperate terminal run:
+
+`ng serve`
+
+# Angular Stuff:
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
 

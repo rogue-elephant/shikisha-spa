@@ -1,0 +1,14 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Shikisha",
+      "description": "Provides services for managing products and projects."
+    },
+    {
+      "id": 2,
+      "name": "Migraine Tracker",
+      "description": "Application for tracking migraines and discovering potential triggers."
+    }
+  ]
+}
